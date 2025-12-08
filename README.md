@@ -1,7 +1,5 @@
 # Rico Portfolio - Designer Portfolio Website
 
-> [中文文档](README-zh.md) | English
-
 A modern, high-performance designer portfolio website template built with Astro. Features a retro blue theme, dark mode support, beautiful animations, and excellent user experience.
 
 ![Astro](https://img.shields.io/badge/Astro-5.15.4-FF5D01?logo=astro&logoColor=white)

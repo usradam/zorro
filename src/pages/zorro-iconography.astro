@@ -1,13 +1,9 @@
 ---
-import Button from "../components/ui/Button.astro";
 import { siteConfig } from "@/config/site";
 import HeroCard from "@/components/home/HeroCard.astro";
 import Layout from "@/layouts/Layout.astro";
-import FeaturedWork from "../components/sections/FeaturedWork.astro";
-import BlogSection from "@/components/sections/BlogSection.astro";
-import SocialCard from "@/components/cards/SocialCard.astro";
 import AnimatedText from "@/components/ui/AnimatedText.astro";
-import Explore from "@/components/sections/Explore.astro";
+import SectionHeader from "@/components/elements/SectionHeader.astro";
 ---
 
 <Layout
@@ -70,7 +66,8 @@ import Explore from "@/components/sections/Explore.astro";
     data-aos-duration="600"
     data-aos-once="true"
   >
-    <Explore title="Explore ↓" />
+    <!-- Add content here using some component -->
+    <SectionHeader title="Tyrone Power" />
   </section>
 
   <section
@@ -80,24 +77,7 @@ import Explore from "@/components/sections/Explore.astro";
     data-aos-duration="600"
     data-aos-once="true"
   >
-    <FeaturedWork
-      title="Featured Work ↓"
-      description="I create innovative and purposeful designs that not only capture attention but also drive meaningful results."
-      limit={5}
-    />
-  </section>
-
-  <section
-    class="mt-26 mb-12"
-    data-aos="fade-up-sm"
-    data-aos-delay="100"
-    data-aos-duration="600"
-    data-aos-once="true"
-  >
-    <BlogSection
-      title="Latest Articles  ↓"
-      description="These are my notes and articles on design, development and life thinking."
-      showViewAllButton={true}
-    />
+    <!-- Add content here using some component -->
+    <SectionHeader title="Antonio Banderas" />
   </section>
 </Layout>
