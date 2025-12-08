@@ -4,15 +4,7 @@
 		"url": "/"
 	},
 	{
-		"name": "Writing",
-		"url": "/blog"
-	},
-	{
-		"name": "Works",
-		"url": "/works"
-	},
-	{
-		"name": "About",
-		"url": "/about"
+		"name": "Zorro Iconography",
+		"url": "/zorro-iconography"
 	}
 ]
