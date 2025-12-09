@@ -8,7 +8,7 @@ import SectionHeader from "@/components/elements/SectionHeader.astro";
 
 <Layout
   title=" Zorro and Zorro: A Tale of Two Zorros Across Time"
-  description="A look at the two iconic portrayals of Zorro in film history, comparing the 1940 film starring Tyrone Power and the 1998 adaptation featuring Antonio Banderas."
+  description="A fight against Spanish tyranny, Zorro serves the people to bring about justice and act as a symbol of hope."
 >
   <div
     class="relative site-container z-20 w-full mx-auto mt-16 px-4 md:mt-18 lg:mt-20 xl:px-0"
@@ -22,7 +22,7 @@ import SectionHeader from "@/components/elements/SectionHeader.astro";
         <!-- Title - AnimatedText animation -->
         <h1 class="mb-4">
           <AnimatedText
-            content="Zorro and Zorro: A Tale of Two Zorros Across Time"
+            content="A Symbol of Justice"
             delay={0.1}
             duration={0.5}
             stagger={0.08}
@@ -33,7 +33,7 @@ import SectionHeader from "@/components/elements/SectionHeader.astro";
         <!-- First description - AnimatedText animation -->
         <div class="mb-2">
           <AnimatedText
-            content="A look at the two iconic portrayals of Zorro in film, comparing the 1940 film starring Tyrone Power and the 1998 adaptation featuring Antonio Banderas."
+            content="A fight against Spanish tyranny, Zorro serves the people to bring about justice and act as a symbol of hope."
             delay={0.3}
             duration={0.5}
             stagger={0.015}
@@ -66,8 +66,25 @@ import SectionHeader from "@/components/elements/SectionHeader.astro";
     data-aos-duration="600"
     data-aos-once="true"
   >
-    <!-- Add content here using some component -->
-    <SectionHeader title="Tyrone Power" />
+    <div class="site-container px-4 md:px-8">
+      <div class="flex items-start gap-6">
+        <div class="w-72 md:w-80 mr-6">
+          <HeroCard
+            imageUrl="/assets/iconography/don-rafael.png"
+            title="Spanish Governor Don Rafael Montero (1998)"
+            link=""
+          />
+        </div>
+        <div class="flex-1">
+          <h3 class="text-xl font-semibold mb-2">Fight Against Corruption</h3>
+          <p
+            class="text-base text-neutral-700 dark:text-neutral-300 mb-4 text-balance"
+          >
+            Zorro is the masked identity of Don Diego de la Vega, who moonlights as this vigilante to combat the corruption from the ruling Spanish governor and to give peace to the peasants who are subjected to tyranny.
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section
@@ -77,7 +94,29 @@ import SectionHeader from "@/components/elements/SectionHeader.astro";
     data-aos-duration="600"
     data-aos-once="true"
   >
-    <!-- Add content here using some component -->
-    <SectionHeader title="Antonio Banderas" />
+    <div class="site-container px-4 md:px-8">
+      <div class="flex items-center md:flex-row-reverse gap-6">
+        <div class="w-72 md:w-80 ml-6">
+          <HeroCard
+            imageUrl="/assets/zorro/banderas-zorro.png"
+            title="Zorro (1998)"
+            link=""
+          />
+        </div>
+        <div class="flex-1 flex justify-end">
+          <div class="max-w-xl text-left md:text-right">
+            <h3 class="text-xl font-semibold mb-2">About this portrayal</h3>
+            <p
+              class="text-base text-neutral-700 dark:text-neutral-300 mb-4 text-balance"
+            >
+              Antonio Banderas brought a modern, charismatic energy to the role
+              in the 1998 adaptation. This section explores differences in
+              costume, iconography, and how the character evolved across
+              adaptations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </Layout>
