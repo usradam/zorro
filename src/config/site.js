@@ -4,7 +4,7 @@ const SITE_URL = import.meta.env.PUBLIC_SITE_URL || 'https://portfolio.ricoui.co
 
 export const siteConfig = {
 	title: "A Tale of Two Zorros Across Time",
-	author: "Adam",
+	author: "Adam Graham | LAIS 363",
 	url: SITE_URL,
 	mail: "",
 	// resume add your resume file path here: /assets/resume.pdf

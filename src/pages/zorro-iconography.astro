@@ -1,9 +1,7 @@
 ---
-import { siteConfig } from "@/config/site";
 import HeroCard from "@/components/home/HeroCard.astro";
 import Layout from "@/layouts/Layout.astro";
 import AnimatedText from "@/components/ui/AnimatedText.astro";
-import SectionHeader from "@/components/elements/SectionHeader.astro";
 ---
 
 <Layout
@@ -22,7 +20,7 @@ import SectionHeader from "@/components/elements/SectionHeader.astro";
         <!-- Title - AnimatedText animation -->
         <h1 class="mb-4">
           <AnimatedText
-            content="Zorro: A Symbol of Justice and Hope"
+            content="Zorro: A Symbol of Justice, Hope, and Charm"
             delay={0.1}
             duration={0.5}
             stagger={0.08}
@@ -33,7 +31,7 @@ import SectionHeader from "@/components/elements/SectionHeader.astro";
         <!-- First description - AnimatedText animation -->
         <div class="mb-2">
           <AnimatedText
-            content="A fight against Spanish tyranny, Zorro serves the people to bring about justice and act as a symbol of hope."
+            content="A fight against Spanish tyranny, Zorro serves the people to bring about justice and act as a symbol of hope. His charm captivates both allies and foes alike, and is a big part of his success and likability."
             delay={0.3}
             duration={0.5}
             stagger={0.015}
@@ -76,11 +74,14 @@ import SectionHeader from "@/components/elements/SectionHeader.astro";
           />
         </div>
         <div class="flex-1">
-          <h3 class="text-xl font-semibold mb-2">Fight Against Corruption</h3>
+          <h3 class="text-xl font-semibold mb-2">Justice</h3>
           <p
             class="text-base text-neutral-700 dark:text-neutral-300 mb-4 text-balance"
           >
-            Zorro is the masked identity of Don Diego de la Vega, who moonlights as this vigilante to combat the corruption from the ruling Spanish governor of California and to give peace to the peasants who are subjected to tyranny.
+            Zorro is the masked identity of Don Diego de la Vega, who moonlights
+            as this vigilante to combat the corruption from the ruling
+            governor of Spanish California and to give peace to the peasants who are
+            subjected to tyranny.
           </p>
         </div>
       </div>
@@ -109,9 +110,40 @@ import SectionHeader from "@/components/elements/SectionHeader.astro";
             <p
               class="text-base text-neutral-700 dark:text-neutral-300 mb-4 text-balance"
             >
-              Zorro servers as a beacon of hope to the many who can not fight back against the Governor and his caballeros. Through his sly actions, Zorro is able to confront the corruption with cunning skill, creating a spectacle that inspires the people and puts fear into the heart of his enemies.
+              Zorro servers as a beacon of hope to the many who can not fight
+              back against the Governor and his caballeros. Through his sly
+              actions, Zorro is able to confront the corruption with cunning
+              skill, creating a spectacle that inspires the people and puts fear
+              into the heart of his enemies.
             </p>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section
+    class="mt-26 mb-12"
+    data-aos="fade-up-sm"
+    data-aos-delay="100"
+    data-aos-duration="600"
+    data-aos-once="true"
+  >
+    <div class="site-container px-4 md:px-8">
+      <div class="flex items-start gap-6">
+        <div class="w-72 md:w-80 mr-6">
+          <HeroCard
+            imageUrl="/assets/iconography/lolita-and-zorro.png"
+            title="Zorro and Lolita"
+            link=""
+          />
+        </div>
+        <div class="flex-1">
+          <h3 class="text-xl font-semibold mb-2">Charm</h3>
+          <p
+            class="text-base text-neutral-700 dark:text-neutral-300 mb-4 text-balance"
+          >
+            Zorro and Don Diego both exude charisma that pierces through the screen. Zorro uses his charm to capture the love of Lolita in <em>The Mark of Zorro</em> (1940) and Elena in <em>The Mask of Zorro</em> (1998). Don Diego uses his charm to snake around the corrupt and cruel governors of Spanish California, all while maintaining his facade as a popinjay.
         </div>
       </div>
     </div>
